@@ -76,53 +76,53 @@ public/
 
 ## 🔧 Installation & Setup
 
-1️⃣ Clone the repository
+## 1️⃣ Clone the repository
 
-2️⃣ Install PHP dependencies
+## 2️⃣ Install PHP dependencies
 composer install
 
-3️⃣ Copy environment file
+## 3️⃣ Copy environment file
 cp .env.example .env
 
-4️⃣ Update database credentials in .env
+## 4️⃣ Update database credentials in .env
 DB_DATABASE=inventory_app
 DB_USERNAME=root
 DB_PASSWORD=
 
-5️⃣ Generate application key
+## 5️⃣ Generate application key
 php artisan key:generate
 
-6️⃣ Run migrations & seeders
+## 6️⃣ Run migrations & seeders
 php artisan migrate --seed
 
-7️⃣ Storage link (for images)
+## 7️⃣ Storage link (for images)
 php artisan storage:link
 
-8️⃣ Install frontend dependencies & build assets
+## 8️⃣ Install frontend dependencies & build assets
 npm install
 npm run dev
 
-9️⃣ Start the development server
+## 9️⃣ Start the development server
 php artisan serve
 
-Your app will run at:
+## Your app will run at:
 http://localhost:8000
 
 
-🔑 Default Login (if seeded)
+## 🔑 Default Login (if seeded)
 Admin Login
 
 Email: admin@example.com
 Password: password
 
-🧪 Improvements I Added
+## 🧪 Improvements I Added
 -> Updated UI styling
 -> Added improvements to validation
 -> Cleaned and documented code
 -> Added comments and restructuring for learning
 
 
-📜 License
+## 📜 License
 This project is open-source under the MIT License.
 
 
